@@ -1,0 +1,6 @@
+/.github
+/.vs
+
+/BattleShip.API/bin
+/BattleShip.API/BattleShip.API.csproj.user
+/BattleShip.App/BattleShip.App.csproj.user

@@ -3,19 +3,16 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BattleShip.API", "BattleShip.API\BattleShip.API.csproj", "{F3DD7D2C-2F88-4BB1-8153-B6724DC41726}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BattleShip.API", "BattleShip.API\BattleShip.API.csproj", "{F3DD7D2C-2F88-4BB1-8153-B6724DC41726}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BattleShip.App", "BattleShip.App\BattleShip.App.csproj", "{252801B6-E32C-4F8E-9EA1-4F8147F6871E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BattleShip.App", "BattleShip.App\BattleShip.App.csproj", "{252801B6-E32C-4F8E-9EA1-4F8147F6871E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BattleShip.Models", "BattleShip.Models\BattleShip.Models.csproj", "{FA33CF99-6A91-4061-AEE1-AA2551159DA6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BattleShip.Models", "BattleShip.Models\BattleShip.Models.csproj", "{FA33CF99-6A91-4061-AEE1-AA2551159DA6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{F3DD7D2C-2F88-4BB1-8153-B6724DC41726}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -30,5 +27,11 @@ Global
 		{FA33CF99-6A91-4061-AEE1-AA2551159DA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FA33CF99-6A91-4061-AEE1-AA2551159DA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FA33CF99-6A91-4061-AEE1-AA2551159DA6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {877566F4-8470-4F5A-A9E6-89082871E403}
 	EndGlobalSection
 EndGlobal
