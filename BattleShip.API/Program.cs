@@ -1,4 +1,6 @@
 using BattleShip.API;
+using Microsoft.AspNetCore.Mvc;
+using System.Security.Cryptography;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -8,6 +10,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
+BatailleNavale[] grilles = { };
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
@@ -22,10 +25,62 @@ app.UseHttpsRedirection();
 
 app.MapGet("/start", () =>
 {
-    var ret = new BatailleNavale[] { new BatailleNavale(), new BatailleNavale() };
-    return TypedResults.Ok( 
-        ret
+    grilles = new BatailleNavale[] { new BatailleNavale(), new BatailleNavale() };
+    return TypedResults.Ok(
+        grilles
         );
+});
+
+app.MapGet("/atk/{x}/{y}", ([FromRoute] string x, [FromRoute] string y) =>
+{
+    /*grilles contient les 2 grilles
+    *[0] donne celle du joueur et [1] de l'ia
+    *positionsBateaux récupere tous ce qu'il y a dedans
+    *[0] accède à la 1er itération mais on doit indiquer le nom de bateau quand même parce que cest une liste de 1 avec une liste dedans
+    *[bateau-LETTRE] nom du bateau
+    *[0] la premiere coord du bateau
+    *coord est partagé en 2 une lettre et un chiffre LETTRE = x et chiffre = y
+    */
+    var touche = false;
+
+    foreach (var bateau in grilles[1].PositionsBateaux)
+    {
+        // Chaque élément dans PositionsBateaux 
+        foreach (var e in bateau)
+        {
+            string nomBateau = e.Key; // Récupère le nom du bateau (par exemple, "bateau-A")
+            List<string> positions = e.Value; // Récupère la liste des positions associées à ce bateau
+
+            Console.WriteLine($"Bateau: {nomBateau}");
+
+            // Parcourt toutes les coordonnées de ce bateau
+            foreach (var coord in positions)
+            {
+                if (coord == x + y)
+                {
+                    touche = true;
+                }
+                Console.WriteLine($"  Coordonnée: {coord}");
+            }
+        }
+    }
+
+
+    Console.WriteLine(x);
+    Console.WriteLine(y);
+    var positionsBateaux = grilles[0].PositionsBateaux;
+    Console.WriteLine(positionsBateaux[0]["bateau-A"][0]);
+    return TypedResults.Ok(touche);
+
+});
+
+app.MapGet("/atkIa", () =>
+{
+    string[] xCoord = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j"];
+    var yCoord = Random.Shared.Next(10);
+    var xIndex = Random.Shared.Next(xCoord.Length);
+
+    Console.WriteLine(xCoord[xIndex]+yCoord);
 });
 
 
