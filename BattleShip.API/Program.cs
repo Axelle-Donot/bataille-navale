@@ -11,6 +11,7 @@ builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
 BatailleNavale[] grilles = { };
+List<string> shotByIa = new List<string>();
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
@@ -25,6 +26,7 @@ app.UseHttpsRedirection();
 
 app.MapGet("/start", () =>
 {
+    shotByIa.Clear();
     grilles = new BatailleNavale[] { new BatailleNavale(), new BatailleNavale() };
     return TypedResults.Ok(
         grilles
@@ -77,10 +79,52 @@ app.MapGet("/atk/{x}/{y}", ([FromRoute] string x, [FromRoute] string y) =>
 app.MapGet("/atkIa", () =>
 {
     string[] xCoord = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j"];
-    var yCoord = Random.Shared.Next(10);
-    var xIndex = Random.Shared.Next(xCoord.Length);
+    var isAlreadyShot = false;
+    do
+    {
+        isAlreadyShot = false;
 
-    Console.WriteLine(xCoord[xIndex]+yCoord);
+        var yCoord = Random.Shared.Next(10);
+        var xIndex = Random.Shared.Next(xCoord.Length);
+        foreach (var e in shotByIa)
+        {
+            if (e == (xCoord[xIndex] + yCoord))
+            {
+                isAlreadyShot = true;
+            }
+            Console.WriteLine(e + " / " + xCoord[xIndex] + yCoord + " / " + isAlreadyShot);
+        }
+        if (!isAlreadyShot)
+        {
+            shotByIa.Add(xCoord[xIndex] + yCoord);
+        }
+        Console.WriteLine("next-------------------------");
+    } while (isAlreadyShot);
+    var touche = false;
+
+    foreach (var bateau in grilles[0].PositionsBateaux)
+    {
+        // Chaque élément dans PositionsBateaux 
+        foreach (var e in bateau)
+        {
+            string nomBateau = e.Key; // Récupère le nom du bateau (par exemple, "bateau-A")
+            List<string> positions = e.Value; // Récupère la liste des positions associées à ce bateau
+
+            Console.WriteLine($"Bateau: {nomBateau}");
+
+            // Parcourt toutes les coordonnées de ce bateau
+            foreach (var coord in positions)
+            {
+                if (coord == shotByIa[shotByIa.Count() - 1])
+                {
+                    touche = true;
+                }
+                Console.WriteLine($"  Coordonnée: {coord}");
+            }
+        }
+    }
+    return TypedResults.Ok(new { touche, shotByIa });
+
 });
 
 
