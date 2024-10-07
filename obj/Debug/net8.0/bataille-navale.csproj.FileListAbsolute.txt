@@ -1,0 +1,5 @@
+C:\Users\axell\Documents\Code\bataille-navale\obj\Debug\net8.0\bataille-navale.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\axell\Documents\Code\bataille-navale\obj\Debug\net8.0\bataille-navale.AssemblyInfoInputs.cache
+C:\Users\axell\Documents\Code\bataille-navale\obj\Debug\net8.0\bataille-navale.AssemblyInfo.cs
+C:\Users\axell\Documents\Code\bataille-navale\obj\Debug\net8.0\bataille-navale.csproj.CoreCompileInputs.cache
+C:\Users\axell\Documents\Code\bataille-navale\obj\Debug\net8.0\bataille-navale.sourcelink.json

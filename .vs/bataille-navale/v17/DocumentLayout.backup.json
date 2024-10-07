@@ -1,0 +1,126 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\axell\\Documents\\Code\\bataille-navale\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{764F8F1A-B4E9-4AC2-97FF-F7484DD5EB3F}|BattleShip.App\\BattleShip.App.csproj|c:\\users\\axell\\documents\\code\\bataille-navale\\battleship.app\\services\\gamestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{764F8F1A-B4E9-4AC2-97FF-F7484DD5EB3F}|BattleShip.App\\BattleShip.App.csproj|solutionrelative:battleship.app\\services\\gamestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{764F8F1A-B4E9-4AC2-97FF-F7484DD5EB3F}|BattleShip.App\\BattleShip.App.csproj|c:\\users\\axell\\documents\\code\\bataille-navale\\battleship.app\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{764F8F1A-B4E9-4AC2-97FF-F7484DD5EB3F}|BattleShip.App\\BattleShip.App.csproj|solutionrelative:battleship.app\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{764F8F1A-B4E9-4AC2-97FF-F7484DD5EB3F}|BattleShip.App\\BattleShip.App.csproj|c:\\users\\axell\\documents\\code\\bataille-navale\\battleship.app\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{764F8F1A-B4E9-4AC2-97FF-F7484DD5EB3F}|BattleShip.App\\BattleShip.App.csproj|solutionrelative:battleship.app\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{764F8F1A-B4E9-4AC2-97FF-F7484DD5EB3F}|BattleShip.App\\BattleShip.App.csproj|c:\\users\\axell\\documents\\code\\bataille-navale\\battleship.app\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{764F8F1A-B4E9-4AC2-97FF-F7484DD5EB3F}|BattleShip.App\\BattleShip.App.csproj|solutionrelative:battleship.app\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{764F8F1A-B4E9-4AC2-97FF-F7484DD5EB3F}|BattleShip.App\\BattleShip.App.csproj|c:\\users\\axell\\documents\\code\\bataille-navale\\battleship.app\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{764F8F1A-B4E9-4AC2-97FF-F7484DD5EB3F}|BattleShip.App\\BattleShip.App.csproj|solutionrelative:battleship.app\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{764F8F1A-B4E9-4AC2-97FF-F7484DD5EB3F}|BattleShip.App\\BattleShip.App.csproj|c:\\users\\axell\\documents\\code\\bataille-navale\\battleship.app\\battleship.app.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{764F8F1A-B4E9-4AC2-97FF-F7484DD5EB3F}|BattleShip.App\\BattleShip.App.csproj|solutionrelative:battleship.app\\battleship.app.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 164,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_Imports.razor",
+              "DocumentMoniker": "C:\\Users\\axell\\Documents\\Code\\bataille-navale\\BattleShip.App\\_Imports.razor",
+              "RelativeDocumentMoniker": "BattleShip.App\\_Imports.razor",
+              "ToolTip": "C:\\Users\\axell\\Documents\\Code\\bataille-navale\\BattleShip.App\\_Imports.razor",
+              "RelativeToolTip": "BattleShip.App\\_Imports.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-27T14:28:03.202Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "App.razor",
+              "DocumentMoniker": "C:\\Users\\axell\\Documents\\Code\\bataille-navale\\BattleShip.App\\App.razor",
+              "RelativeDocumentMoniker": "BattleShip.App\\App.razor",
+              "ToolTip": "C:\\Users\\axell\\Documents\\Code\\bataille-navale\\BattleShip.App\\App.razor",
+              "RelativeToolTip": "BattleShip.App\\App.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-27T14:28:02.256Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\axell\\Documents\\Code\\bataille-navale\\BattleShip.App\\Program.cs",
+              "RelativeDocumentMoniker": "BattleShip.App\\Program.cs",
+              "ToolTip": "C:\\Users\\axell\\Documents\\Code\\bataille-navale\\BattleShip.App\\Program.cs",
+              "RelativeToolTip": "BattleShip.App\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T10:08:19.449Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GameState.cs",
+              "DocumentMoniker": "C:\\Users\\axell\\Documents\\Code\\bataille-navale\\BattleShip.App\\Services\\GameState.cs",
+              "RelativeDocumentMoniker": "BattleShip.App\\Services\\GameState.cs",
+              "ToolTip": "C:\\Users\\axell\\Documents\\Code\\bataille-navale\\BattleShip.App\\Services\\GameState.cs*",
+              "RelativeToolTip": "BattleShip.App\\Services\\GameState.cs*",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwBIAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T10:05:40.055Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BattleShip.App",
+              "DocumentMoniker": "C:\\Users\\axell\\Documents\\Code\\bataille-navale\\BattleShip.App\\BattleShip.App.csproj",
+              "RelativeDocumentMoniker": "BattleShip.App\\BattleShip.App.csproj",
+              "ToolTip": "C:\\Users\\axell\\Documents\\Code\\bataille-navale\\BattleShip.App\\BattleShip.App.csproj",
+              "RelativeToolTip": "BattleShip.App\\BattleShip.App.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-09-27T10:05:18.955Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Home.razor",
+              "DocumentMoniker": "C:\\Users\\axell\\Documents\\Code\\bataille-navale\\BattleShip.App\\Pages\\Home.razor",
+              "RelativeDocumentMoniker": "BattleShip.App\\Pages\\Home.razor",
+              "ToolTip": "C:\\Users\\axell\\Documents\\Code\\bataille-navale\\BattleShip.App\\Pages\\Home.razor",
+              "RelativeToolTip": "BattleShip.App\\Pages\\Home.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-27T09:50:29.275Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
