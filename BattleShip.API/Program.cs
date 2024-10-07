@@ -37,32 +37,31 @@ app.MapGet("/atk/{x}/{y}", ([FromRoute] string x, [FromRoute] string y) =>
 {
     /*grilles contient les 2 grilles
     *[0] donne celle du joueur et [1] de l'ia
-    *positionsBateaux récupere tous ce qu'il y a dedans
-    *[0] accède à la 1er itération mais on doit indiquer le nom de bateau quand même parce que cest une liste de 1 avec une liste dedans
+    *positionsBateaux rï¿½cupere tous ce qu'il y a dedans
+    *[0] accï¿½de ï¿½ la 1er itï¿½ration mais on doit indiquer le nom de bateau quand mï¿½me parce que cest une liste de 1 avec une liste dedans
     *[bateau-LETTRE] nom du bateau
     *[0] la premiere coord du bateau
-    *coord est partagé en 2 une lettre et un chiffre LETTRE = x et chiffre = y
+    *coord est partagï¿½ en 2 une lettre et un chiffre LETTRE = x et chiffre = y
     */
     var touche = false;
 
     foreach (var bateau in grilles[1].PositionsBateaux)
     {
-        // Chaque élément dans PositionsBateaux 
+        // Chaque ï¿½lï¿½ment dans PositionsBateaux 
         foreach (var e in bateau)
         {
-            string nomBateau = e.Key; // Récupère le nom du bateau (par exemple, "bateau-A")
-            List<string> positions = e.Value; // Récupère la liste des positions associées à ce bateau
+            string nomBateau = e.Key; 
+            List<string> positions = e.Value; 
 
             Console.WriteLine($"Bateau: {nomBateau}");
 
-            // Parcourt toutes les coordonnées de ce bateau
             foreach (var coord in positions)
             {
                 if (coord == x + y)
                 {
                     touche = true;
                 }
-                Console.WriteLine($"  Coordonnée: {coord}");
+                Console.WriteLine($"  Coordonnï¿½e: {coord}");
             }
         }
     }
@@ -104,22 +103,22 @@ app.MapGet("/atkIa", () =>
 
     foreach (var bateau in grilles[0].PositionsBateaux)
     {
-        // Chaque élément dans PositionsBateaux 
+        
         foreach (var e in bateau)
         {
-            string nomBateau = e.Key; // Récupère le nom du bateau (par exemple, "bateau-A")
-            List<string> positions = e.Value; // Récupère la liste des positions associées à ce bateau
+            string nomBateau = e.Key; 
+            List<string> positions = e.Value; 
 
             Console.WriteLine($"Bateau: {nomBateau}");
 
-            // Parcourt toutes les coordonnées de ce bateau
+           
             foreach (var coord in positions)
             {
                 if (coord == shotByIa[shotByIa.Count() - 1])
                 {
                     touche = true;
                 }
-                Console.WriteLine($"  Coordonnée: {coord}");
+                Console.WriteLine($"  Coordonnï¿½e: {coord}");
             }
         }
     }
