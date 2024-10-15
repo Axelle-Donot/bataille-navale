@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\axell\\Documents\\Code\\bataille-navale\\BattleShip.App\\BattleShip.App.csproj": {}
+    "C:\\Users\\gaeta\\Downloads\\.net\\naval\\BattleShip.App\\BattleShip.App.csproj": {}
   },
   "projects": {
-    "C:\\Users\\axell\\Documents\\Code\\bataille-navale\\BattleShip.App\\BattleShip.App.csproj": {
+    "C:\\Users\\gaeta\\Downloads\\.net\\naval\\BattleShip.App\\BattleShip.App.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\axell\\Documents\\Code\\bataille-navale\\BattleShip.App\\BattleShip.App.csproj",
+        "projectUniqueName": "C:\\Users\\gaeta\\Downloads\\.net\\naval\\BattleShip.App\\BattleShip.App.csproj",
         "projectName": "BattleShip.App",
-        "projectPath": "C:\\Users\\axell\\Documents\\Code\\bataille-navale\\BattleShip.App\\BattleShip.App.csproj",
-        "packagesPath": "C:\\Users\\axell\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\axell\\Documents\\Code\\bataille-navale\\BattleShip.App\\obj\\",
+        "projectPath": "C:\\Users\\gaeta\\Downloads\\.net\\naval\\BattleShip.App\\BattleShip.App.csproj",
+        "packagesPath": "C:\\Users\\gaeta\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\gaeta\\Downloads\\.net\\naval\\BattleShip.App\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\axell\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\gaeta\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
-        "originalTargetFrameworks": [
-          "net8.0"
-        ],
+        "originalTargetFrameworks": ["net8.0"],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
@@ -36,9 +38,7 @@
           }
         },
         "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
+          "warnAsError": ["NU1605"]
         },
         "restoreAuditProperties": {
           "enableAudit": "true",
@@ -116,9 +116,7 @@
           "C:\\Users\\axell\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
-        "originalTargetFrameworks": [
-          "net8.0"
-        ],
+        "originalTargetFrameworks": ["net8.0"],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
@@ -131,9 +129,7 @@
           }
         },
         "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
+          "warnAsError": ["NU1605"]
         },
         "restoreAuditProperties": {
           "enableAudit": "true",

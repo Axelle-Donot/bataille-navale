@@ -108,6 +108,7 @@
           "Microsoft.AspNetCore.App"
         ]
       },
+<<<<<<< HEAD
       "Battleship.Models/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
@@ -116,6 +117,16 @@
         },
         "runtime": {
           "bin/placeholder/Battleship.Models.dll": {}
+=======
+      "BattleShip.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/BattleShip.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BattleShip.Models.dll": {}
+>>>>>>> 852c742b8cf4d18f80743bb5174075c2b20a2083
         }
       }
     }
@@ -462,33 +473,49 @@
         "swashbuckle.aspnetcore.swaggerui.nuspec"
       ]
     },
+<<<<<<< HEAD
     "Battleship.Models/1.0.0": {
       "type": "project",
       "path": "../Battleship.Models/Battleship.Models.csproj",
       "msbuildProject": "../Battleship.Models/Battleship.Models.csproj"
+=======
+    "BattleShip.Models/1.0.0": {
+      "type": "project",
+      "path": "../BattleShip.Models/BattleShip.Models.csproj",
+      "msbuildProject": "../BattleShip.Models/BattleShip.Models.csproj"
+>>>>>>> 852c742b8cf4d18f80743bb5174075c2b20a2083
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+<<<<<<< HEAD
       "Battleship.Models >= 1.0.0",
+=======
+      "BattleShip.Models >= 1.0.0",
+>>>>>>> 852c742b8cf4d18f80743bb5174075c2b20a2083
       "Microsoft.AspNetCore.OpenApi >= 8.0.8",
       "Swashbuckle.AspNetCore >= 6.4.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\axell\\.nuget\\packages\\": {}
+    "C:\\Users\\gaeta\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\axell\\Documents\\Code\\bataille-navale\\BattleShip.API\\BattleShip.API.csproj",
+      "projectUniqueName": "C:\\Users\\gaeta\\Downloads\\.net\\naval\\BattleShip.API\\BattleShip.API.csproj",
       "projectName": "BattleShip.API",
-      "projectPath": "C:\\Users\\axell\\Documents\\Code\\bataille-navale\\BattleShip.API\\BattleShip.API.csproj",
-      "packagesPath": "C:\\Users\\axell\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\axell\\Documents\\Code\\bataille-navale\\BattleShip.API\\obj\\",
+      "projectPath": "C:\\Users\\gaeta\\Downloads\\.net\\naval\\BattleShip.API\\BattleShip.API.csproj",
+      "packagesPath": "C:\\Users\\gaeta\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\gaeta\\Downloads\\.net\\naval\\BattleShip.API\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\axell\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\gaeta\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -503,8 +530,13 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
+<<<<<<< HEAD
             "C:\\Users\\axell\\Documents\\Code\\bataille-navale\\BattleShip.Models\\BattleShip.Models.csproj": {
               "projectPath": "C:\\Users\\axell\\Documents\\Code\\bataille-navale\\BattleShip.Models\\BattleShip.Models.csproj"
+=======
+            "C:\\Users\\gaeta\\Downloads\\.net\\naval\\BattleShip.Models\\BattleShip.Models.csproj": {
+              "projectPath": "C:\\Users\\gaeta\\Downloads\\.net\\naval\\BattleShip.Models\\BattleShip.Models.csproj"
+>>>>>>> 852c742b8cf4d18f80743bb5174075c2b20a2083
             }
           }
         }

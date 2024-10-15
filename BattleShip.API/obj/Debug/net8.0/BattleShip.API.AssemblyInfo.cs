@@ -14,7 +14,11 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BattleShip.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
+<<<<<<< HEAD
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+46768c2d8a59cdc71f57390de9f05af4ad97840c")]
+=======
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+aa9605acc6e0d78cb28a3fccf7e1006f32412a81")]
+>>>>>>> 852c742b8cf4d18f80743bb5174075c2b20a2083
 [assembly: System.Reflection.AssemblyProductAttribute("BattleShip.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BattleShip.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
