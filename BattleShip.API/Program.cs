@@ -33,7 +33,7 @@ app.MapGet("/start", () =>
         );
 });
 
-app.MapGet("/atk/{x}/{y}", ([FromRoute] string x, [FromRoute] string y) =>
+app.MapGet("/atk/{x}/{y}/ia", ([FromRoute] string x, [FromRoute] string y) =>
 {
     /*grilles contient les 2 grilles
     *[0] donne celle du joueur et [1] de l'ia
@@ -50,8 +50,8 @@ app.MapGet("/atk/{x}/{y}", ([FromRoute] string x, [FromRoute] string y) =>
         // Chaque �l�ment dans PositionsBateaux 
         foreach (var e in bateau)
         {
-            string nomBateau = e.Key; 
-            List<string> positions = e.Value; 
+            string nomBateau = e.Key;
+            List<string> positions = e.Value;
 
             Console.WriteLine($"Bateau: {nomBateau}");
 
@@ -71,7 +71,55 @@ app.MapGet("/atk/{x}/{y}", ([FromRoute] string x, [FromRoute] string y) =>
     Console.WriteLine(y);
     var positionsBateaux = grilles[0].PositionsBateaux;
     Console.WriteLine(positionsBateaux[0]["bateau-A"][0]);
-    return TypedResults.Ok(touche);
+
+
+
+    string[] xCoord = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j"];
+    var isAlreadyShot = false;
+    do
+    {
+        isAlreadyShot = false;
+
+        var yCoord = Random.Shared.Next(10);
+        var xIndex = Random.Shared.Next(xCoord.Length);
+        foreach (var e in shotByIa)
+        {
+            if (e == (xCoord[xIndex] + yCoord))
+            {
+                isAlreadyShot = true;
+            }
+            Console.WriteLine(e + " / " + xCoord[xIndex] + yCoord + " / " + isAlreadyShot);
+        }
+        if (!isAlreadyShot)
+        {
+            shotByIa.Add(xCoord[xIndex] + yCoord);
+        }
+        Console.WriteLine("next-------------------------");
+    } while (isAlreadyShot);
+    var toucheIa = false;
+
+    foreach (var bateau in grilles[0].PositionsBateaux)
+    {
+
+        foreach (var e in bateau)
+        {
+            string nomBateau = e.Key;
+            List<string> positions = e.Value;
+
+            Console.WriteLine($"Bateau: {nomBateau}");
+
+
+            foreach (var coord in positions)
+            {
+                if (coord == shotByIa[shotByIa.Count() - 1])
+                {
+                    toucheIa = true;
+                }
+                Console.WriteLine($"  Coordonn�e: {coord}");
+            }
+        }
+    }
+    return TypedResults.Ok(new { touche, toucheIa, shotByIa });
 
 });
 
@@ -99,30 +147,30 @@ app.MapGet("/atkIa", () =>
         }
         Console.WriteLine("next-------------------------");
     } while (isAlreadyShot);
-    var touche = false;
+    var toucheIa = false;
 
     foreach (var bateau in grilles[0].PositionsBateaux)
     {
-        
+
         foreach (var e in bateau)
         {
-            string nomBateau = e.Key; 
-            List<string> positions = e.Value; 
+            string nomBateau = e.Key;
+            List<string> positions = e.Value;
 
             Console.WriteLine($"Bateau: {nomBateau}");
 
-           
+
             foreach (var coord in positions)
             {
                 if (coord == shotByIa[shotByIa.Count() - 1])
                 {
-                    touche = true;
+                    toucheIa = true;
                 }
                 Console.WriteLine($"  Coordonn�e: {coord}");
             }
         }
     }
-    return TypedResults.Ok(new { touche, shotByIa });
+    return TypedResults.Ok(new { toucheIa, shotByIa });
 
 });
 
