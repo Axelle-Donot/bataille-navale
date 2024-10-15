@@ -1,6 +1,10 @@
 /.github
 /.vs
 
+BattleShip.API/obj/debug/
+BattleShip.API/obj/Debug/
+BattleShip.API/obj/BattleShip.Models.csproj.nuget.dgspec.json
+
 /BattleShip.API/bin
 /BattleShip.API/BattleShip.API.csproj.user
 /BattleShip.App/BattleShip.App.csproj.user
