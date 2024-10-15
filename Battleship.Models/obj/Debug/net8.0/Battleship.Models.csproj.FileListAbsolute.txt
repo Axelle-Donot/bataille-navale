@@ -10,3 +10,15 @@ C:\Users\gaeta\Downloads\.net\naval\BattleShip.Models\obj\Debug\net8.0\BattleShi
 C:\Users\gaeta\Downloads\.net\naval\BattleShip.Models\obj\Debug\net8.0\refint\BattleShip.Models.dll
 C:\Users\gaeta\Downloads\.net\naval\BattleShip.Models\obj\Debug\net8.0\BattleShip.Models.pdb
 C:\Users\gaeta\Downloads\.net\naval\BattleShip.Models\obj\Debug\net8.0\ref\BattleShip.Models.dll
+C:\Users\axell\Documents\Code\bataille-navale\BattleShip.Models\bin\Debug\net8.0\BattleShip.Models.deps.json
+C:\Users\axell\Documents\Code\bataille-navale\BattleShip.Models\bin\Debug\net8.0\BattleShip.Models.dll
+C:\Users\axell\Documents\Code\bataille-navale\BattleShip.Models\bin\Debug\net8.0\BattleShip.Models.pdb
+C:\Users\axell\Documents\Code\bataille-navale\BattleShip.Models\obj\Debug\net8.0\BattleShip.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\axell\Documents\Code\bataille-navale\BattleShip.Models\obj\Debug\net8.0\BattleShip.Models.AssemblyInfoInputs.cache
+C:\Users\axell\Documents\Code\bataille-navale\BattleShip.Models\obj\Debug\net8.0\BattleShip.Models.AssemblyInfo.cs
+C:\Users\axell\Documents\Code\bataille-navale\BattleShip.Models\obj\Debug\net8.0\BattleShip.Models.csproj.CoreCompileInputs.cache
+C:\Users\axell\Documents\Code\bataille-navale\BattleShip.Models\obj\Debug\net8.0\BattleShip.Models.sourcelink.json
+C:\Users\axell\Documents\Code\bataille-navale\BattleShip.Models\obj\Debug\net8.0\BattleShip.Models.dll
+C:\Users\axell\Documents\Code\bataille-navale\BattleShip.Models\obj\Debug\net8.0\refint\BattleShip.Models.dll
+C:\Users\axell\Documents\Code\bataille-navale\BattleShip.Models\obj\Debug\net8.0\BattleShip.Models.pdb
+C:\Users\axell\Documents\Code\bataille-navale\BattleShip.Models\obj\Debug\net8.0\ref\BattleShip.Models.dll

@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\gaeta\\Downloads\\.net\\naval\\BattleShip.Models\\BattleShip.Models.csproj": {}
+    "C:\\Users\\axell\\Documents\\Code\\bataille-navale\\BattleShip.Models\\BattleShip.Models.csproj": {}
   },
   "projects": {
-    "C:\\Users\\gaeta\\Downloads\\.net\\naval\\BattleShip.Models\\BattleShip.Models.csproj": {
+    "C:\\Users\\axell\\Documents\\Code\\bataille-navale\\BattleShip.Models\\BattleShip.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gaeta\\Downloads\\.net\\naval\\BattleShip.Models\\BattleShip.Models.csproj",
+        "projectUniqueName": "C:\\Users\\axell\\Documents\\Code\\bataille-navale\\BattleShip.Models\\BattleShip.Models.csproj",
         "projectName": "BattleShip.Models",
-        "projectPath": "C:\\Users\\gaeta\\Downloads\\.net\\naval\\BattleShip.Models\\BattleShip.Models.csproj",
-        "packagesPath": "C:\\Users\\gaeta\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gaeta\\Downloads\\.net\\naval\\BattleShip.Models\\obj\\",
+        "projectPath": "C:\\Users\\axell\\Documents\\Code\\bataille-navale\\BattleShip.Models\\BattleShip.Models.csproj",
+        "packagesPath": "C:\\Users\\axell\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\axell\\Documents\\Code\\bataille-navale\\BattleShip.Models\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\gaeta\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\axell\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

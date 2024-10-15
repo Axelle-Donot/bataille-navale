@@ -1,11 +1,58 @@
-﻿@page "/"
+﻿@page "/bataillenavale"
+@inject BateauService BateauService
 
-<PageTitle>Home</PageTitle>
+<button @onclick="DemarrerPartie">Démarrer Partie</button>
 
-<h1>Bataille navale</h1>
+@if (grille != null)
+{
+    <div class="grille">
+        @for (int i = 0; i < 10; i++)
+        {
+            <div class="ligne">
+                @for (int j = 0; j < 10; j++)
+                {
+                    <div class="case @(grille[i, j])">@grille[i, j]</div>
+                }
+            </div>
+        }
+    </div>
+}
 
-@inject GameState gameState
+@code {
+    private string[,] grille = new string[10, 10];
 
-<h3>Game State</h3>
-@*<p>Player Score: @gameState.PlayerScore</p>*@
-@*<p>Opponent Score: @gameState.OpponentScore</p>*@
+    private async Task DemarrerPartie()
+    {
+        var positionsBateaux = await BateauService.DemanderPositionsBateauxAsync();
+        InitialiserGrille(positionsBateaux);
+    }
+
+    private void InitialiserGrille(List<BateauPosition> positionsBateaux)
+    {
+        // Remplir la grille avec des espaces vides
+        for (int i = 0; i < 10; i++)
+        {
+            for (int j = 0; j < 10; j++)
+            {
+                grille[i, j] = " ";
+            }
+        }
+
+        // Placer les bateaux sur la grille
+        foreach (var bateau in positionsBateaux)
+        {
+            foreach (var position in bateau.PositionsBateaux)
+            {
+                foreach (var key in position.Keys)
+                {
+                    foreach (var coord in position[key])
+                    {
+                        var row = coord[0] - 'a'; // Convertit 'a' à '0'
+                        var col = int.Parse(coord[1].ToString()) - 1; // Convertit 1-10 à 0-9
+                        grille[row, col] = key; // Placer le bateau
+                    }
+                }
+            }
+        }
+    }
+}
