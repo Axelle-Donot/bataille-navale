@@ -12,6 +12,9 @@ builder.Services.AddSwaggerGen();
 var app = builder.Build();
 BatailleNavale[] grilles = { };
 List<string> shotByIa = new List<string>();
+int toucheCount = 0 ;
+int toucheIaCount = 0;
+string winner = "_NONE_";
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
@@ -27,6 +30,8 @@ app.UseHttpsRedirection();
 app.MapGet("/start", () =>
 {
     shotByIa.Clear();
+    toucheCount = 0 ;
+    toucheIaCount = 0 ;
     grilles = new BatailleNavale[] { new BatailleNavale(), new BatailleNavale() };
     return TypedResults.Ok(
         grilles
@@ -119,7 +124,19 @@ app.MapGet("/atk/{x}/{y}/ia", ([FromRoute] string x, [FromRoute] string y) =>
             }
         }
     }
-    return TypedResults.Ok(new { touche, toucheIa, shotByIa });
+    if (touche){
+        toucheCount ++ ;
+    }
+    if (toucheIa){
+        toucheIaCount ++;
+    }
+
+    if (toucheCount == 15 ){
+        winner = "_PLAYER_";
+    }else if(toucheIaCount == 15 ){
+        winner = "_IA_";
+    }
+    return TypedResults.Ok(new { touche, toucheIa, shotByIa, winner });
 
 });
 
