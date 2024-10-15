@@ -4,3 +4,7 @@
 /BattleShip.API/bin
 /BattleShip.API/BattleShip.API.csproj.user
 /BattleShip.App/BattleShip.App.csproj.user
+
+BattleShip.App/obj/BattleShip.App.csproj.nuget.dgspec.json
+Battleship.Models/obj/debug/
+Battleship.Models/obj/Battleship.Models.csproj.nuget.dgspec.json
