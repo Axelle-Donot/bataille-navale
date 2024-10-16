@@ -3,8 +3,10 @@
 
 BattleShip.API/obj/debug/
 BattleShip.API/obj/Debug/
-/BattleShip.API/obj/debug/
-/BattleShip.API/obj/Debug/
+
+BattleShip.APP/obj/debug/
+BattleShip.APP/obj/Debug/
+
 BattleShip.API/obj/BattleShip.Models.csproj.nuget.dgspec.json
 
 /BattleShip.API/bin
@@ -15,3 +17,7 @@ BattleShip.App/obj/BattleShip.App.csproj.nuget.dgspec.json
 Battleship.Models/obj/debug/
 BattleShip.Models/obj/Debug/
 Battleship.Models/obj/Battleship.Models.csproj.nuget.dgspec.json
+BattleShip.API/obj/Debug/net8.0/BattleShip.API.AssemblyInfo.cs
+BattleShip.API/obj/Debug/net8.0/BattleShip.API.AssemblyInfo.cs
+BattleShip.API/obj/Debug/net8.0/BattleShip.API.AssemblyInfoInputs.cache
+BattleShip.API/obj/Debug/net8.0/BattleShip.API.csproj.AssemblyReference.cache
