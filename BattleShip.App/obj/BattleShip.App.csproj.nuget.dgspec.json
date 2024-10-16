@@ -103,14 +103,14 @@
         }
       }
     },
-    "C:\\Users\\axell\\Documents\\Code\\bataille-navale\\Battleship.Models\\Battleship.Models.csproj": {
+    "C:\\Users\\axell\\Documents\\Code\\bataille-navale\\BattleShip.Models\\BattleShip.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\axell\\Documents\\Code\\bataille-navale\\Battleship.Models\\Battleship.Models.csproj",
-        "projectName": "Battleship.Models",
-        "projectPath": "C:\\Users\\axell\\Documents\\Code\\bataille-navale\\Battleship.Models\\Battleship.Models.csproj",
+        "projectUniqueName": "C:\\Users\\axell\\Documents\\Code\\bataille-navale\\BattleShip.Models\\BattleShip.Models.csproj",
+        "projectName": "BattleShip.Models",
+        "projectPath": "C:\\Users\\axell\\Documents\\Code\\bataille-navale\\BattleShip.Models\\BattleShip.Models.csproj",
         "packagesPath": "C:\\Users\\axell\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\axell\\Documents\\Code\\bataille-navale\\Battleship.Models\\obj\\",
+        "outputPath": "C:\\Users\\axell\\Documents\\Code\\bataille-navale\\BattleShip.Models\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\axell\\AppData\\Roaming\\NuGet\\NuGet.Config",
