@@ -12,7 +12,8 @@ builder.Services.AddSwaggerGen();
 var app = builder.Build();
 BatailleNavale[] grilles = { };
 List<string> shotByIa = new List<string>();
-int toucheCount = 0 ;
+List<string> shotByPlayer = new List<string>();
+int toucheCount = 0;
 int toucheIaCount = 0;
 string winner = "_NONE_";
 
@@ -30,11 +31,22 @@ app.UseHttpsRedirection();
 app.MapGet("/start", () =>
 {
     shotByIa.Clear();
-    toucheCount = 0 ;
-    toucheIaCount = 0 ;
+    toucheCount = 0;
+    toucheIaCount = 0;
+    string chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
+    Random random = new Random();
+    char[] stringChars = new char[5];
+
+    for (int i = 0; i < stringChars.Length; i++)
+    {
+        stringChars[i] = chars[random.Next(chars.Length)];
+    }
+
+    string idParty = new string(stringChars);
+    Console.WriteLine("Chaîne aléatoire : " + idParty);
     grilles = new BatailleNavale[] { new BatailleNavale(), new BatailleNavale() };
     return TypedResults.Ok(
-        grilles
+       new { grilles, idParty}
         );
 });
 
@@ -76,7 +88,7 @@ app.MapGet("/atk/{x}/{y}/ia", ([FromRoute] string x, [FromRoute] string y) =>
     Console.WriteLine(y);
     var positionsBateaux = grilles[0].PositionsBateaux;
     Console.WriteLine(positionsBateaux[0]["bateau-A"][0]);
-
+    shotByPlayer.Add(x+y);
 
 
     string[] xCoord = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j"];
@@ -124,19 +136,24 @@ app.MapGet("/atk/{x}/{y}/ia", ([FromRoute] string x, [FromRoute] string y) =>
             }
         }
     }
-    if (touche){
-        toucheCount ++ ;
+    if (touche)
+    {
+        toucheCount++;
     }
-    if (toucheIa){
-        toucheIaCount ++;
+    if (toucheIa)
+    {
+        toucheIaCount++;
     }
 
-    if (toucheCount == 15 ){
+    if (toucheCount == 15)
+    {
         winner = "_PLAYER_";
-    }else if(toucheIaCount == 15 ){
+    }
+    else if (toucheIaCount == 15)
+    {
         winner = "_IA_";
     }
-    return TypedResults.Ok(new { touche, toucheIa, shotByIa, winner });
+    return TypedResults.Ok(new { touche, toucheIa, shotByPlayer, shotByIa, winner });
 
 });
 
