@@ -10,8 +10,23 @@
 using System;
 using System.Reflection;
 
+<<<<<<< HEAD
 [assembly: Microsoft.AspNetCore.Mvc.ApplicationParts.ApplicationPartAttribute("Microsoft.AspNetCore.OpenApi")]
 [assembly: Microsoft.AspNetCore.Mvc.ApplicationParts.ApplicationPartAttribute("Swashbuckle.AspNetCore.SwaggerGen")]
+=======
+<<<<<<<< HEAD:BattleShip.App/obj/Debug/net8.0/BattleShip.App.AssemblyInfo.cs
+[assembly: System.Reflection.AssemblyCompanyAttribute("BattleShip.App")]
+[assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
+[assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d1e9883c2b48105ea58966ba9de0531a9cff3a62")]
+[assembly: System.Reflection.AssemblyProductAttribute("BattleShip.App")]
+[assembly: System.Reflection.AssemblyTitleAttribute("BattleShip.App")]
+[assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
+========
+[assembly: Microsoft.AspNetCore.Mvc.ApplicationParts.ApplicationPartAttribute("Microsoft.AspNetCore.OpenApi")]
+[assembly: Microsoft.AspNetCore.Mvc.ApplicationParts.ApplicationPartAttribute("Swashbuckle.AspNetCore.SwaggerGen")]
+>>>>>>>> origin:BattleShip.API/obj/Debug/net8.0/BattleShip.API.MvcApplicationPartsAssemblyInfo.cs
+>>>>>>> origin
 
 // Généré par la classe MSBuild WriteCodeFragment.
 
