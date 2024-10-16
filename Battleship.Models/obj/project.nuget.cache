@@ -1,14 +1,8 @@
 {
   "version": 2,
-<<<<<<< HEAD
   "dgSpecHash": "F3LdcL9bxeY=",
   "success": true,
   "projectFilePath": "C:\\Users\\axell\\Documents\\Code\\bataille-navale\\BattleShip.Models\\BattleShip.Models.csproj",
-=======
-  "dgSpecHash": "0ATq20uCP2I=",
-  "success": true,
-  "projectFilePath": "C:\\Users\\gaeta\\Downloads\\.net\\naval\\BattleShip.Models\\BattleShip.Models.csproj",
->>>>>>> origin
   "expectedPackageFiles": [],
   "logs": []
 }

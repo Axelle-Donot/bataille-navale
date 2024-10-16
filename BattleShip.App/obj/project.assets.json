@@ -2105,9 +2105,7 @@
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
-      "originalTargetFrameworks": [
-        "net8.0"
-      ],
+      "originalTargetFrameworks": ["net8.0"],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "C:\\Program Files\\dotnet\\library-packs": {},
@@ -2117,21 +2115,14 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-<<<<<<< HEAD
             "C:\\Users\\axell\\Documents\\Code\\bataille-navale\\BattleShip.Models\\BattleShip.Models.csproj": {
               "projectPath": "C:\\Users\\axell\\Documents\\Code\\bataille-navale\\BattleShip.Models\\BattleShip.Models.csproj"
-=======
-            "C:\\Users\\gaeta\\Downloads\\.net\\naval\\BattleShip.Models\\BattleShip.Models.csproj": {
-              "projectPath": "C:\\Users\\gaeta\\Downloads\\.net\\naval\\BattleShip.Models\\BattleShip.Models.csproj"
->>>>>>> origin
             }
           }
         }
       },
       "warningProperties": {
-        "warnAsError": [
-          "NU1605"
-        ]
+        "warnAsError": ["NU1605"]
       },
       "restoreAuditProperties": {
         "enableAudit": "true",
