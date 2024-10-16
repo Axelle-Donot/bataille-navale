@@ -1,6 +1,6 @@
 ﻿namespace Battleship.Models;
 
-public class Class1
+public class GameState
 {
 
 }

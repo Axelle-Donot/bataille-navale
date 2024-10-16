@@ -1,0 +1,7 @@
+C:\Users\axell\Documents\Code\bataille-navale\BattleShip.App\obj\Debug\net8.0\BattleShip.App.csproj.AssemblyReference.cache
+C:\Users\axell\Documents\Code\bataille-navale\BattleShip.App\obj\Debug\net8.0\BattleShip.App.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\axell\Documents\Code\bataille-navale\BattleShip.App\obj\Debug\net8.0\BattleShip.App.AssemblyInfoInputs.cache
+C:\Users\axell\Documents\Code\bataille-navale\BattleShip.App\obj\Debug\net8.0\BattleShip.App.AssemblyInfo.cs
+C:\Users\axell\Documents\Code\bataille-navale\BattleShip.App\obj\Debug\net8.0\BattleShip.App.csproj.CoreCompileInputs.cache
+C:\Users\axell\Documents\Code\bataille-navale\BattleShip.App\obj\Debug\net8.0\BattleShip.App.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\axell\Documents\Code\bataille-navale\BattleShip.App\obj\Debug\net8.0\BattleShip.App.sourcelink.json

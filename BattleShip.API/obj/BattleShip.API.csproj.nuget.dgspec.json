@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\gaeta\\Downloads\\.net\\naval\\BattleShip.API\\BattleShip.API.csproj": {}
+    "C:\\Users\\axell\\Documents\\Code\\bataille-navale\\BattleShip.API\\BattleShip.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\gaeta\\Downloads\\.net\\naval\\BattleShip.API\\BattleShip.API.csproj": {
+    "C:\\Users\\axell\\Documents\\Code\\bataille-navale\\BattleShip.API\\BattleShip.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gaeta\\Downloads\\.net\\naval\\BattleShip.API\\BattleShip.API.csproj",
+        "projectUniqueName": "C:\\Users\\axell\\Documents\\Code\\bataille-navale\\BattleShip.API\\BattleShip.API.csproj",
         "projectName": "BattleShip.API",
-        "projectPath": "C:\\Users\\gaeta\\Downloads\\.net\\naval\\BattleShip.API\\BattleShip.API.csproj",
-        "packagesPath": "C:\\Users\\gaeta\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gaeta\\Downloads\\.net\\naval\\BattleShip.API\\obj\\",
+        "projectPath": "C:\\Users\\axell\\Documents\\Code\\bataille-navale\\BattleShip.API\\BattleShip.API.csproj",
+        "packagesPath": "C:\\Users\\axell\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\axell\\Documents\\Code\\bataille-navale\\BattleShip.API\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\gaeta\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\axell\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -33,8 +29,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\gaeta\\Downloads\\.net\\naval\\BattleShip.Models\\BattleShip.Models.csproj": {
-                "projectPath": "C:\\Users\\gaeta\\Downloads\\.net\\naval\\BattleShip.Models\\BattleShip.Models.csproj"
+              "C:\\Users\\axell\\Documents\\Code\\bataille-navale\\BattleShip.Models\\BattleShip.Models.csproj": {
+                "projectPath": "C:\\Users\\axell\\Documents\\Code\\bataille-navale\\BattleShip.Models\\BattleShip.Models.csproj"
               }
             }
           }
@@ -86,21 +82,17 @@
         }
       }
     },
-    "C:\\Users\\gaeta\\Downloads\\.net\\naval\\BattleShip.Models\\BattleShip.Models.csproj": {
+    "C:\\Users\\axell\\Documents\\Code\\bataille-navale\\BattleShip.Models\\BattleShip.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gaeta\\Downloads\\.net\\naval\\BattleShip.Models\\BattleShip.Models.csproj",
+        "projectUniqueName": "C:\\Users\\axell\\Documents\\Code\\bataille-navale\\BattleShip.Models\\BattleShip.Models.csproj",
         "projectName": "BattleShip.Models",
-        "projectPath": "C:\\Users\\gaeta\\Downloads\\.net\\naval\\BattleShip.Models\\BattleShip.Models.csproj",
-        "packagesPath": "C:\\Users\\gaeta\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gaeta\\Downloads\\.net\\naval\\BattleShip.Models\\obj\\",
+        "projectPath": "C:\\Users\\axell\\Documents\\Code\\bataille-navale\\BattleShip.Models\\BattleShip.Models.csproj",
+        "packagesPath": "C:\\Users\\axell\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\axell\\Documents\\Code\\bataille-navale\\BattleShip.Models\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\gaeta\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\axell\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
