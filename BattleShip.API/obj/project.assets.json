@@ -108,14 +108,14 @@
           "Microsoft.AspNetCore.App"
         ]
       },
-      "Battleship.Models/1.0.0": {
+      "BattleShip.Models/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "compile": {
-          "bin/placeholder/Battleship.Models.dll": {}
+          "bin/placeholder/BattleShip.Models.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Battleship.Models.dll": {}
+          "bin/placeholder/BattleShip.Models.dll": {}
         }
       }
     }
@@ -462,15 +462,15 @@
         "swashbuckle.aspnetcore.swaggerui.nuspec"
       ]
     },
-    "Battleship.Models/1.0.0": {
+    "BattleShip.Models/1.0.0": {
       "type": "project",
-      "path": "../Battleship.Models/Battleship.Models.csproj",
-      "msbuildProject": "../Battleship.Models/Battleship.Models.csproj"
+      "path": "../BattleShip.Models/BattleShip.Models.csproj",
+      "msbuildProject": "../BattleShip.Models/BattleShip.Models.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
-      "Battleship.Models >= 1.0.0",
+      "BattleShip.Models >= 1.0.0",
       "Microsoft.AspNetCore.OpenApi >= 8.0.8",
       "Swashbuckle.AspNetCore >= 6.4.0"
     ]
