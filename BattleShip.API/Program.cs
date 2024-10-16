@@ -12,6 +12,7 @@ builder.Services.AddSwaggerGen();
 var app = builder.Build();
 BatailleNavale[] grilles = { };
 List<string> shotByIa = new List<string>();
+List<string> shotByPlayer = new List<string>();
 int toucheCount = 0;
 int toucheIaCount = 0;
 string winner = "_NONE_";
@@ -87,7 +88,7 @@ app.MapGet("/atk/{x}/{y}/ia", ([FromRoute] string x, [FromRoute] string y) =>
     Console.WriteLine(y);
     var positionsBateaux = grilles[0].PositionsBateaux;
     Console.WriteLine(positionsBateaux[0]["bateau-A"][0]);
-
+    shotByPlayer.Add(x+y);
 
 
     string[] xCoord = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j"];
@@ -152,7 +153,7 @@ app.MapGet("/atk/{x}/{y}/ia", ([FromRoute] string x, [FromRoute] string y) =>
     {
         winner = "_IA_";
     }
-    return TypedResults.Ok(new { touche, toucheIa, shotByIa, winner });
+    return TypedResults.Ok(new { touche, toucheIa, shotByPlayer, shotByIa, winner });
 
 });
 
